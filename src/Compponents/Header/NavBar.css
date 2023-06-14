@@ -1,0 +1,60 @@
+.nav-container{
+    width: 100%;
+    background: #000;
+}
+
+.nav-content{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:1rem 0 0.5rem 0;
+
+}
+
+.nav-logo{
+    display: flex;
+    align-items: center;
+}
+.nav-logo h2 {
+    color: #ffff;
+    font-weight: bold;
+    margin-bottom: 0;
+
+}
+
+.logo-box {
+    width: 2.5rem;
+}
+
+.logo-box img {
+    width: 100%;
+}
+
+.nav-center{
+    
+}
+.nav-center ul{
+    display: flex;
+    align-items: center;
+    column-gap: 1.5rem;    margin-bottom: 0;
+}
+.nav-list-item {
+    text-decoration: none;
+    color: #ffff;
+    font-weight: bold;
+}
+
+.nav-content button {
+    background: none;
+    color:  #ffff;
+    border: 2px solid rgb(255, 190, 12);
+    padding: 0.3rem 1.5rem;
+    border-radius: 0.3rem;
+}
+
+.active {
+    color: rgb(255, 190, 12);
+
+}

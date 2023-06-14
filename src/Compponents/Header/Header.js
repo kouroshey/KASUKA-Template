@@ -1,7 +1,16 @@
-import Nav from "./Nav";
+import React from 'react'
+import './Header.css'
+import NavBar from './NavBar'
+import HeaderMain from './HeaderMain'
+
 
 export default function Header() {
+
+
     return (
-        <div><Nav></Nav></div>
+        <>
+            <NavBar></NavBar>
+            <HeaderMain></HeaderMain>
+        </>
     )
 }

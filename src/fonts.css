@@ -1,0 +1,73 @@
+@font-face {
+    font-family: vazir;
+    font-style: normal;
+    font-weight: 100;
+    src: url("../public/fonts/Vazir-Thin.eot"),
+      url("../public/fonts/Vazir-Thin.woff") format("woff"),
+      url("../public/fonts/Vazir-Thin.ttf") format("ttf"),
+      url("../public/fonts/Vazir-Thin.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: vazir;
+    font-style: normal;
+    font-weight: 300;
+    src: url("../public/fonts/Vazir-Light.eot");
+    src: url("../public/fonts/Vazir-Light.woff") format("woff"),
+      url("../public/fonts/Vazir-Light.ttf") format("ttf"),
+      url("../public/fonts/Vazir-Light.woff2") format("woff2");
+  }
+  
+  @font-face {
+    font-family: vazir;
+    font-style: normal;
+    font-weight: 400;
+    src: url("../public/fonts/Vazir-Medium.eot");
+    src: url("../public/fonts/Vazir-Medium.woff") format("woff"),
+      url("../public/fonts/Vazir-Medium.ttf") format("ttf"),
+      url("../public/fonts/Vazir-Medium.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: vazir;
+    font-style: normal;
+    font-weight: 950;
+    src: url("../public/fonts/Vazir-Black.eot");
+    src: url("../public/fonts/Vazir-Black.woff") format("woff"),
+      url("../public/fonts/Vazir-Black.ttf") format("ttf"),
+      url("../public/fonts/Vazir-Black.woff2") format("woff2");
+  }
+  
+  @font-face {
+    font-family: yekanbakh;
+    font-style: normal;
+    font-weight: 900;
+    src: url("../public/fonts/YekanBakh-Heavy.ttf");
+  }
+  
+  @font-face {
+    font-family: yekanbakh;
+    font-style: normal;
+    font-weight: 700;
+    src: url("../public/fonts/YekanBakh-Bold.ttf");
+  }
+  
+  @font-face {
+    font-family: yekanbakh;
+    font-style: normal;
+    font-weight: 500;
+    src: url("../public/fonts/YekanBakh-Regular.ttf");
+  }
+  
+  @font-face {
+    font-family: yekanbakh;
+    font-style: normal;
+    font-weight: 400;
+    src: url("../public/fonts/YekanBakh-Medium.ttf");
+  }
+  
+  @font-face {
+    font-family: yekanbakh;
+    font-style: normal;
+    font-weight: 300;
+    src: url("../public/fonts/YekanBakh-Light.ttf");
+  }
+  
