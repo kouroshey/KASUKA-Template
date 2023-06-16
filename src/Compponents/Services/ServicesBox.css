@@ -1,0 +1,32 @@
+.services-box-content{
+    padding: 3rem 4rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+    background: #ffff;
+    border: 1px solid #cbcbcb;
+}
+
+.services-box-content i {
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.services-icon-bg {
+    background: rgb(255, 190, 12);
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.services-boxes h3 {
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-align: center;
+}
+.services-boxes p {
+    font-size: 1rem;
+    font-weight: lighter;
+    text-align: center;
+}

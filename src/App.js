@@ -2,6 +2,7 @@ import './App.css';
 import Header from './Compponents/Header/Header';
 import SubHeader from './Compponents/SubHeader/SubHeader';
 import Features from './Compponents/Features/Features';
+import Services from './Compponents/Services/Services'
 
 function App() {
   return (
@@ -10,6 +11,8 @@ function App() {
       <Header></Header>
       <SubHeader></SubHeader>
       <Features></Features>
+      <Services></Services>
+
     </div>
   );
 }
