@@ -7,6 +7,9 @@
     row-gap: 2rem;
 
 }
+.services-container {
+    padding: 2rem 0;
+}
 
 .services-title {
     width: 90%;

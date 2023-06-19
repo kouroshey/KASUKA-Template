@@ -1,0 +1,43 @@
+#cta{
+    background-image: url(https://hivalearn.ir/templates/kasuka/assets/img/cta-bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    background: #00000081;
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    row-gap: 2rem;
+    flex-direction: column;
+    padding: 3rem 0;
+
+}
+
+.text h2 {
+    font-weight: bold;
+    color: var(--bs-yellow);
+}
+
+.text p {
+    color: var(--bs-white);
+    text-align: center;
+
+}
+
+.text button {
+    color: var(--bs-white);
+    background: none;
+    border:solid 2px var(--bs-white);
+    border-radius: 8px;
+    padding: 0.5rem 1.5rem;
+    font-size: 1.2rem;
+
+}
