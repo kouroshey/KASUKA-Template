@@ -1,15 +1,17 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import './Header.css'
 import NavBar from './NavBar'
 import HeaderMain from './HeaderMain'
 import HeaderBox from './HeaderBox'
 
 
+
 export default function Header() {
 
+    
 
     return (
-        <>
+        <div className='entire-container'>
             <NavBar></NavBar>
             <HeaderMain></HeaderMain>
             <div className="header-box-container">
@@ -35,7 +37,7 @@ export default function Header() {
                 </svg>
                 }></HeaderBox>
             </div>
-        </>
+        </div>
     )
 }
 

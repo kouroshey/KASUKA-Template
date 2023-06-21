@@ -1,0 +1,87 @@
+.slider-container {
+    width: 100%;
+}
+
+.my-slider {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: opacity 1s ease-in-out;
+
+}
+
+.slide {
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 8px;
+    
+}
+
+.slide img {
+    width: 100%;
+    border: var(--bs-yellow) 3px solid;
+    border-radius: 8px;
+    transition: opacity 1s ease-in-out;
+}
+
+.active {
+    display: block;
+}
+
+
+.prev , .next{
+    font-size: 4rem;
+    background: #ffffff56;
+    position: absolute;
+    border-radius: 8px;
+}
+
+.next{
+    right: 12rem;
+}
+
+.prev {
+    left: 12rem;
+}
+
+.prev:hover , .next:hover{
+    font-size: 4rem;
+    background: var(--bs-yellow);
+    position: absolute;
+    border-radius: 8px;
+    transition: all ease-in-out .3s;
+    cursor: pointer;
+}
+
+.dots-section {
+    padding-top: 1rem;
+    display: flex;
+    column-gap: 0.5rem;
+}
+
+.dot {
+    width: 15px;
+    height: 15px;
+    border: 1px rgb(156, 156, 156) solid;
+    border-radius: 50%;
+
+    /* position: absolute; */
+}
+
+.dot:hover {
+    cursor: pointer;
+    border: 1px black solid;
+}
+
+.dot-active {
+    background: var(--bs-yellow);
+    border: none;
+}
+.dot-active:hover {
+    border: none;
+    transform: scale(1.2);
+    transition: all ease 0.2s;
+}

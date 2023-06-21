@@ -1,14 +1,29 @@
 import './NavBar.css'
+import { useState , useEffect } from 'react'
 
 
 export default function NavBar() {
-    
 
+    const [isSticky, setSticky] = useState(null)
+    useEffect(() => {
+        function handleScroll() {
+            if (window.pageYOffset > 100) {
+                setSticky(true)
+            } else {
+                setSticky(false)
+            }
+        }
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, [])
 
     return (
         <>
-            
-            <div className="nav-container">
+
+            <div className={isSticky ? 'sticky' : 'nav-container'}>
                 <section className="nav-content">
                     <div className="nav-logo">
                         <div className='logo-box'><img src="./img/logos/logo.png" alt="" /></div>
@@ -29,6 +44,6 @@ export default function NavBar() {
                     <button>شروع</button>
                 </section>
             </div>
-        </>    
+        </>
     )
 }
