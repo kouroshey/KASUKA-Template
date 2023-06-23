@@ -6,18 +6,23 @@ import Services from './Compponents/Services/Services'
 import CTA from './Compponents/CTA/CTA';
 import Portfolio from './Compponents/Portolio/Portfolio';
 import Counts from './Compponents/Counts/Counts';
+import Test from './Compponents/TestImonials/TestImonials';
+import Team from './Compponents/Team/Team';
+
 
 function App() {
   return (
     <div>
       <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet' />
-      <Header></Header>
-      <SubHeader></SubHeader>
-      <Features></Features>
-      <Services></Services>
+      <Header/>
+      <SubHeader/>
+      <Features/>
+      <Services/>
       <CTA></CTA>
       <Portfolio></Portfolio>
-      <Counts/>
+      <Counts />
+      <Test />  
+      <Team/>
 
     </div>
   );

@@ -1,0 +1,12 @@
+.test-container {
+    background: url(https://hivalearn.ir/templates/kasuka/assets/img/testimonials-bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.test-content {
+    height: 100%;
+    background: #000000a8;
+    padding: 5rem;
+}
