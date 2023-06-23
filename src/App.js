@@ -5,6 +5,7 @@ import Features from './Compponents/Features/Features';
 import Services from './Compponents/Services/Services'
 import CTA from './Compponents/CTA/CTA';
 import Portfolio from './Compponents/Portolio/Portfolio';
+import Counts from './Compponents/Counts/Counts';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Services></Services>
       <CTA></CTA>
       <Portfolio></Portfolio>
+      <Counts/>
 
     </div>
   );

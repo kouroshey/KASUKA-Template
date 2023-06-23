@@ -1,37 +1,32 @@
-import './SlideShow.css'
-import { useState, useEffect } from 'react'
+import './SlideShow.css';
+import { useState, useEffect } from 'react';
+import slide1 from './slides/slide-1.jpg';
+import slide2 from './slides/slide-2.png';
+import slide3 from './slides/slide-3.png';
+import slide4 from './slides/slide-4.png';
 
 
 export default function SlideShow() {
     const [currentSlide, setCurrentSlide] = useState(0)
-    const [images, setImages] = useState(
-        [
-        'img/portfolio/slide-1.jpg',
-        'img/portfolio/slide-2.png',
-        'img/portfolio/slide-3.png',
-        'img/portfolio/slide-4.png'
-        ])
+    const slides = [slide1 , slide2 , slide3 , slide4]
     
     const nextSlide = () => {
-        if (currentSlide === images.length - 1) {
+        if (currentSlide === slides.length - 1) {
             setCurrentSlide(0)
         } else {
             setCurrentSlide(currentSlide + 1)
-            console.log(currentSlide);
-            console.log(currentSlide + 1);
-
         }
+        console.log(currentSlide);
         
     }
 
     const prevSlide = () => {
         if (currentSlide === 0) {
-            setCurrentSlide(images.length - 1)
+            setCurrentSlide(slides.length - 1)
         } else {
             setCurrentSlide(currentSlide - 1)
         }
-        console.log('prev');
-
+        console.log(currentSlide);
     }
 
     return (
@@ -42,23 +37,16 @@ export default function SlideShow() {
 
                 {/* slides */}
                 <div className="slide">
-                    <img src={images[currentSlide]} alt="" />
-                </div>
-                {/*end of slides */}
-
+                    {slides.map((slide , index)=> (
+                        <img src={slide} className={index === currentSlide ? "slide-img show" : "slide-img"} />
+                        
+                    ))}
                 {/* arrows */}
                 <i class='bx bx-chevron-left prev' onClick={prevSlide}></i>
                 <i class='bx bx-chevron-right next' onClick={nextSlide} ></i>
                 {/* end of arrows */}
-
-                {/* dots */}
-                <div className="dots-section">
-                    <span className='dot dot-active'></span>
-                    <span className='dot'></span>
-                    <span className='dot'></span>
-                    <span className='dot'></span>
                 </div>
-                {/* end of dots */}
+                {/*end of slides */}
 
             </div>
 
