@@ -8,7 +8,7 @@ import Portfolio from './Compponents/Portolio/Portfolio';
 import Counts from './Compponents/Counts/Counts';
 import Test from './Compponents/TestImonials/TestImonials';
 import Team from './Compponents/Team/Team';
-
+import Contact from './Compponents/Contact/Contact';
 
 function App() {
   return (
@@ -22,7 +22,8 @@ function App() {
       <Portfolio></Portfolio>
       <Counts />
       <Test />  
-      <Team/>
+      <Team />
+      <Contact/>
 
     </div>
   );
