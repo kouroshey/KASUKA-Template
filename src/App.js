@@ -9,6 +9,7 @@ import Counts from './Compponents/Counts/Counts';
 import Test from './Compponents/TestImonials/TestImonials';
 import Team from './Compponents/Team/Team';
 import Contact from './Compponents/Contact/Contact';
+import Footer from './Compponents/Footer/Footer'
 
 function App() {
   return (
@@ -23,7 +24,9 @@ function App() {
       <Counts />
       <Test />  
       <Team />
-      <Contact/>
+      <Contact />
+      <Footer/>
+      
 
     </div>
   );

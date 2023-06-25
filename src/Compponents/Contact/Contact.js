@@ -17,9 +17,9 @@ export default function Contact() {
                     </div>
                     <div className="contact-bottom">
                         <div className="contact-bottom-right">
-                            <ContactBox boxIcon={'bx bxs-color'} boxTitle={'مکان:'} boxDesc={'تهران، آزادی'}></ContactBox>
+                            <ContactBox boxIcon={'bx bxs-color'} boxTitle={'مکان:'} boxDesc={'تهران خیابان آزادی'}></ContactBox>
                             <ContactBox boxIcon={'bx bxs-hard-hat'} boxTitle={'ایمیل:'} boxDesc={'info@example.com'}></ContactBox>
-                            <ContactBox boxIcon={'bx bxs-circle-three-quarter'} boxTitle={'شماره تماس:'} boxDesc={'1234567890'}></ContactBox>
+                            <ContactBox boxIcon={'bx bxs-circle-three-quarter'} boxTitle={'شماره تماس:'} boxDesc={'0123456789'}></ContactBox>
                         </div>
                         <div className="contact-bottom-left">
                             <form action="#" className='contact-form'>
