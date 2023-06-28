@@ -39,5 +39,11 @@
     border-radius: 8px;
     padding: 0.5rem 1.5rem;
     font-size: 1.2rem;
+    transition: all 0.3s ease;
+}
 
+.text button:hover {
+    color: black;
+    background: var(--bs-yellow);
+    border:solid 2px var(--bs-yellow);
 }

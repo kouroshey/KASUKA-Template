@@ -1,6 +1,6 @@
 .features-section{
     width: 100%;
-    padding: 8rem 0;
+    padding: 4rem 0;
 }
 
 .features-section-container{
@@ -13,11 +13,18 @@
 }
 
 .feature-img{
-
+    width: 45rem;
+    background: url(https://hivalearn.ir/templates/kasuka/assets/img/features.jpg);
+    height: 30rem;
+    background-position: center;
+    background-size: cover;
+}
+.feature-img img {
+    width: 100%;
 }
 
 .features-boxex{
     display: flex;
     flex-direction: column;
-    row-gap: 2rem;
+    row-gap: 4rem;
 }

@@ -22,3 +22,7 @@
     --bs-dark: #212529;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}

@@ -6,7 +6,14 @@
     align-items: center;
     row-gap: 1rem;
     background: #ffff;
-    border: 1px solid #cbcbcb;
+    border: 1px solid #e1e1e1;
+    transition: all 0.3s ease;
+    transition-delay: 0.1s;
+}
+
+.services-box-content:hover {
+    transform: translateY(-16px);
+    box-shadow: 0 0 20px rgb(197, 196, 196);
 }
 
 .services-box-content i {
@@ -27,6 +34,6 @@
 }
 .services-boxes p {
     font-size: 1rem;
-    font-weight: lighter;
+    font-weight:500;
     text-align: center;
 }

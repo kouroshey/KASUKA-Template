@@ -8,7 +8,7 @@ export default function Features() {
 
             <section className='features-section'>
                 <div className="features-section-container">
-                    <div className="feature-img"><img src="img/features.webp" alt="" /></div>
+                    <div className="feature-img"></div>
                     <div className="features-boxex">
                         <FeaturesBox title={'تبلیغ سختی است'} text={'نتایج یا در نتیجه هر یک از این اهداف اشتغال حاصل می شوند'} classIcon={'bx bx-chat'}></FeaturesBox>
                         <FeaturesBox title={'کدام یک از اینهاست'} text={'کسانی که هوس سیاهان می کنند نمی بینند ، آنها مقصر هستند که خدمات خود را رها کرده اند'} classIcon={'bx bx-lock-alt'}></FeaturesBox>

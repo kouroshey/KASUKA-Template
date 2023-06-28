@@ -15,18 +15,20 @@ function App() {
   return (
     <div>
       <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet' />
-      <Header/>
-      <SubHeader/>
-      <Features/>
-      <Services/>
-      <CTA></CTA>
-      <Portfolio></Portfolio>
-      <Counts />
-      <Test />  
-      <Team />
-      <Contact />
-      <Footer/>
-      
+      <body>
+        <Header />
+        <SubHeader />
+        <Features />
+        <Services />
+        <CTA></CTA>
+        <Portfolio></Portfolio>
+        <Counts />
+        <Test />
+        <Team />
+        <Contact />
+        <Footer />
+      </body>
+
 
     </div>
   );

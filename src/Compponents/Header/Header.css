@@ -2,13 +2,5 @@
     width: 100%;
 }
 
-.header-box-container {
-    position: absolute;
-    top: 25rem;
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
-    align-items: center;
-    right: 10rem;
-}
+
 

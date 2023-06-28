@@ -9,7 +9,7 @@ export default function HeaderBox({ svgSrcr , boxText }) {
 
             <div className="header-box">
                 {svgSrcr}
-                <p>{boxText}</p>
+                <a href="#">{boxText}</a>
             </div>
 
         </>
