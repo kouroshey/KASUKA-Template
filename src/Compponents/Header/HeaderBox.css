@@ -19,7 +19,7 @@
     row-gap: 1rem;
     align-items: center;
     justify-content: center;
-    transition: all 0.3s ease-in;
+    transition: all 0.3s ease;
 }
 
 .header-box svg {
@@ -43,5 +43,6 @@
 
 .header-box:hover{
     border:1px solid var(--bs-yellow);
+    transform: scale(1.05);
 
 }

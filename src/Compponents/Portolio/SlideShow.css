@@ -88,11 +88,9 @@
 .dot {
     width: 15px;
     height: 15px;
-    /* border: 1px var(--bs-yellow) solid; */
     border-radius: 50%;
     background-color: #e6e6e6;
     display: block;
-    /* position: absolute; */
     transition: all 0.3s;
 }
 

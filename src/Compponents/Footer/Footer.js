@@ -36,21 +36,21 @@ export default function Footer() {
                         <div className="footer-list-right">
                             <h4>لینک‌های مفید</h4>
                             <ul>
-                                <li><i className="bx bx-chevron-left"></i>خانه</li>
-                                <li><i className="bx bx-chevron-left"></i>درباره‌ما</li>
-                                <li><i className="bx bx-chevron-left"></i>خدمات</li>
-                                <li><i className="bx bx-chevron-left"></i>شرایط استفاده از خدمات</li>
-                                <li><i className="bx bx-chevron-left"></i>سیاست حفظ حریم خصوصی</li>
+                                <li><i className="bx bx-chevron-left"></i><a href="#">خانه</a></li>
+                                <li><i className="bx bx-chevron-left"></i><a href="#">درباره‌ما</a></li>
+                                <li><i className="bx bx-chevron-left"></i><a href="#">خدمات</a></li>
+                                <li><i className="bx bx-chevron-left"></i><a href="#">شرایط استفاده از خدمات</a></li>
+                                <li><i className="bx bx-chevron-left"></i><a href="#">سیاست حفظ حریم خصوصی</a></li>
                             </ul>
                         </div>
                         <div className="footer-list-left">
                             <h4>خدمات ما</h4>
                             <ul>
-                                <li><i className="bx bx-chevron-left"></i>طراحی وبسایت</li>
-                                <li><i className="bx bx-chevron-left"></i>توسعه‌ وب</li>
-                                <li><i className="bx bx-chevron-left"></i>مدیریت تولید</li>
-                                <li><i className="bx bx-chevron-left"></i>بازاریابی</li>
-                                <li><i className="bx bx-chevron-left"></i>طراحی گرافیک</li>
+                                <li><i className="bx bx-chevron-left"></i><a href="#">طراحی وبسایت</a></li>
+                                <li><i className="bx bx-chevron-left"></i><a href="#">توسعه‌ وب</a></li>
+                                <li><i className="bx bx-chevron-left"></i><a href="#">مدیریت تولید</a></li>
+                                <li><i className="bx bx-chevron-left"></i><a href="#">بازاریابی</a></li>
+                                <li><i className="bx bx-chevron-left"></i><a href="#">طراحی گرافیک</a></li>
                             </ul>
                         </div>
 

@@ -1,0 +1,23 @@
+.team-social-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.7rem;
+    background-color: rgba(231, 231, 231, 0.767);
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+
+
+i {
+    font-size: 1.5rem;
+    color: var(--bs-light-gray);
+}
+
+.team-social-container:hover i{
+    color: black;
+}
+.team-social-container:hover {
+    background-color: var(--bs-yellow);
+}
