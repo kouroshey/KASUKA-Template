@@ -1,5 +1,6 @@
 import './NavBar.css'
 import { useState, useEffect } from 'react'
+import Link from 'react-router-dom'
 
 
 export default function NavBar() {
@@ -34,7 +35,7 @@ export default function NavBar() {
                         <ul className='nav-menu'>
                             <li><a className='nav-list-item active' href="#">خانه</a></li>
                             <li><a className='nav-list-item' href="#">درباره‌ی ما</a></li>
-                            <li><a className='nav-list-item' href="#">خدمات</a></li>
+                            <li><Link  /></li>
                             <li><a className='nav-list-item' href="#">نمونه کارها</a></li>
                             <li><a className='nav-list-item' href="#">تیم</a></li>
                             <li>
